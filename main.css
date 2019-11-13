@@ -1,4 +1,4 @@
-body {
+​body {
   margin: 0;
   padding: 0;
   color: #fff;
@@ -117,7 +117,7 @@ body {
   height: 45px;
   background-color: #fff;
   color: slategray;
-  font-size: 36px;
+  font-size: 32px;
 }
 
 .main-boxes {
@@ -131,6 +131,11 @@ body {
 .lineHorizontal {
   border-top: 2px solid rgb(200, 200, 200);
   width: 100%;
+}
+
+.company_name{
+  font-size: 22px;
+  color: #394263;
 }
 
 .time_stamp{
@@ -155,10 +160,32 @@ body {
   margin-top:5px;
 }
 
+.container {
+  justify-content: space-between;
+  flex-direction: column;
+  height: 200vh;
+  display: flex;
+}
+.container .btn-holder {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.c_button {
+  background-color: #394263;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
 .box {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   font-size:22px;
   width: 100%;
   box-shadow:  0 0 15px 5px rgba(0,0,0,0.2);
